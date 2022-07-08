@@ -41,3 +41,5 @@ Console.Write($"{number} ^ {degree} = ");
 Console.WriteLine(Exponentiation(number,degree));
 Console.ResetColor();
 Console.WriteLine("=======================================");
+Console.Write("Вариант через Math.Pow: ");
+Console.WriteLine(Math.Pow(number, degree));
